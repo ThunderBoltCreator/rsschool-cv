@@ -1,1 +1,0 @@
-https://thunderboltcreator.github.io/rsschool-cv/
