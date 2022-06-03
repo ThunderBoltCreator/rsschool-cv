@@ -1,1 +1,1 @@
-https://thunderboltcreator.github.io/rsschool-cv/
+https://thunderboltcreator.github.io/rsschool-cv/cv
