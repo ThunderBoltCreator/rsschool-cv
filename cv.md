@@ -46,7 +46,7 @@ if (spollerIcon) {
 ## Education
  * University: Undefined
  * Courses: 
-    * FrilancerLifeStyle course
+    * FrilancerLifeStyle html/css and basic js course
 
 
 ## English
