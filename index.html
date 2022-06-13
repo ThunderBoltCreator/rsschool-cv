@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +8,115 @@
 	<link href="css/style.css" rel="stylesheet">
 	<title>CV</title>
 </head>
+
 <body>
 	<div class="wrapper">
-		<header class="header"></header>
+		<header class="header">
+			<div class="header__container">
+				<div class="header__inner">
+					<a class="header__link" target="_blank" href="https://github.com/ThunderBoltCreator">
+						<img src="img/github_logo.png" alt="Github Logo">
+					</a>
+					<nav class="header__menu menu">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#" class="menu__link">Contacts</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">About Me</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Education</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Experience</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Skills</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
 		<main class="page">
-			<p class="random-text">Рандомное содержимое</p>
+			<section class="i">
+				<div class="i__container">
+					<div class="i__inner">
+						<div class="i__column">
+							<h1 class="i__title i__title_big">Stepan Shitikov</h1>
+							<p class="i__sub-title">Web Developer</p>
+							<h2 class="i__title title">Contacts</h2>
+							<ul class="i__links links-i">
+								<li class="links-i__item"><a class="links-i__link" href="mailto:lololol2763@gmail.com">Mail:
+										lololol2763@gmail.com</a></li>
+								<li class="links-i__item"><a class="links-i__link" href="https://t.me/R1k0S">Telegram: R1k0S</a>
+								</li>
+								<li class="links-i__item"><a class="links-i__link"
+										href="https://goo.gl/maps/6KpUj8595HeKSP3aA">Russia, Sankt-Peterburg</a></li>
+							</ul>
+						</div>
+						<div class="i__column">
+							<div class="i__image">
+								<img src="img/avatar.jpg" alt="My Face">
+							</div>
+							<div class="education">
+								<h2 class="education__title title">Education</h2>
+								<ul class="education__list">
+									<li class="education__item">Course html / css / base js from
+										FreelancerLifeStyle<br>(2021-2022)</li>
+								</ul>
+							</div>
+							<p class="about-me">
+								I am studying to be a web-programmer, specializing in front-end. I consider myself a responsible
+								person at work. My English level is bad, but I'm learning!
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="work">
+				<div class="work__container">
+					<h2 class="work__title title">Work Experience</h2>
+					<ul class="work__list">
+						<li class="work__item"><a class="work__link"
+								href="https://thunderboltcreator.github.io/lesson_19/dist/">Studyin Project</a></li>
+					</ul>
+					<div class="code">
+						<h3 class="code__title title">Code Example</h3>
+<pre class="code__example">
+const spollerIcon = document.querySelector(".spollers__title");
+const spollerBdy = document.querySelector(".spollers__body")
+
+if (spollerIcon) {
+	if (!spollerIcon.classList.contains("_ready")) {
+		spollerIcon.addEventListener("click", function () {
+			spollerIcon.classList.toggle('_spoller-ready');
+			if (spollerBdy) {
+				spollerBdy.classList.toggle('_spoller-visible');
+			}
+		});
+	}
+}
+</pre>
+					</div>
+					<section class="skills">
+						<h3 class="skills__title title">Skills</h3>
+						<ul class="skills__list">
+							<li class="skills__item">HTML</li>
+							<li class="skills__item">CSS</li>
+							<li class="skills__item">Basic JS</li>
+							<li class="skills__item">Basic GIT</li>
+						</ul>
+					</section>
+					<section class="languages">
+						<h3 class="languages__title title">Languages</h3>
+						<ul class="languages__list">
+							<li class="languages__item">Russian - Native</li>
+							<li class="languages__item">English - Learn</li>
+						</ul>
+					</section>
+				</div>
+			</section>
 		</main>
-		<footer class="footer"></footer>
+		<footer class="footer">
+			<div class="footer__container">
+				<a class="footer__link" href="https://github.com/ThunderBoltCreator">Github</a>
+				<a class="footer__link footer__link_image" href="https://rs.school/js-stage0/"><img src="img/logo.svg" alt="RS SCHOOL Logo"></a>
+				<p class="footer__text">2022</p>
+			</div>
+		</footer>
 	</div>
 </body>
+
 </html>
