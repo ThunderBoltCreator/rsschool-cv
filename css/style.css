@@ -40,7 +40,7 @@ h6 {
 
 body,
 html {
-	min-width: 100%;
+	min-height: 100%;
 }
 
 body {
@@ -52,7 +52,7 @@ body {
 .wrapper {
 	display: flex;
 	flex-direction: column;
-	min-width: 100%;
+	min-height: 100%;
 	overflow: hidden;
 }
 
